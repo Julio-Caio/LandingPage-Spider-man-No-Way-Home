@@ -1,0 +1,310 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@600&family=Marvel&family=Roboto&display=swap');
+
+    body {
+        height: auto;
+        background: black;
+    }
+
+    @keyframes shortCircuit {
+        0% {
+            opacity: 1;
+            text-shadow: none;
+        }
+
+        20% {
+            opacity: 0.7;
+            text-shadow: 0 0 4px #fff, 0 0 6px rgb(176, 255, 242);
+        }
+        40% {
+            opacity: 1;
+            text-shadow: none;
+        }
+        60% {
+            opacity: 0.7;
+            text-shadow: 0 0 4px #fff, 0 0 4px rgb(176, 255, 250);
+        }
+        80% {
+            opacity: 1;
+            text-shadow: none;
+        }
+        100% {
+            opacity: 0.7;
+            text-shadow: 0 0 4px #fff, 0 0 2px rgb(177, 255, 200);
+        }
+
+    }
+
+    .logo-apps {
+        flex: 0;
+    }
+
+    ul {
+        float: right;
+        margin-left: auto;
+        margin-right: 10px;
+        padding-top: 10px;
+    }
+
+    ul li {
+        display: inline-flex;
+        text-decoration: none;
+        color: white;
+
+        font-size: 24px;
+        background-color: transparent;
+        margin-right: 15px;
+
+        right: 0;
+        cursor: pointer;
+    }
+    ul li a {
+        text-decoration: none;
+        color: inherit;
+    }
+
+    ul li:hover{
+        color: rgb(255, 18, 18);
+        transition: ease-in-out 0.25s;
+    }
+
+    body {
+        position: relative;
+        margin: 0;
+        top: 0;
+        left: 0;
+        height: 100vh;
+    }
+
+
+    header {
+        top: 0;
+        left: 0;
+        padding: 0;
+        width: 100%;
+        background: #0F3452 ;
+        display: flex;
+        align-items: center;
+        height: 56px;
+        z-index: 999;
+        position: fixed;
+        opacity: 1;
+    }
+
+    .content {
+        margin-top: 56px;
+    }
+
+    main {
+
+        width: 100%;
+        height: 89vh;
+        background-image: url('./images/foto-spiderman.png');
+
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin-bottom: 5px;
+
+    }
+
+    .sinopse {
+        display: flex;
+        width: 410px;
+        height: 129px;
+
+        position: relative;
+        float: right;
+        margin-top: 10%;
+        padding: 10px;
+        color: #FFF;
+        text-align: center;
+        font-size: 13px;
+        font-weight: 500;
+
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    .logo {
+        margin: 0;
+        flex: 1;
+        position: relative;
+        padding: 5%;
+        display: inline;
+    }
+
+    .square {
+        background: linear-gradient(to right, rgb(216, 19, 19), rgb(167, 20, 20), rgb(141, 16, 16));
+        display: flex;
+        width: 60px;
+        height: 26.5px;
+        padding-left: 1.5px;
+        margin-right: 12.5px;
+    }
+    
+    .logo-name {
+        color: white;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        font-size: 18px;
+        font-weight: 500;
+        margin-right: 10px;
+    }
+    
+    .logo-name a {
+        text-decoration: none;
+        color: inherit;
+    }
+    
+    .studios-name {
+        margin-top: 3.7%;
+        font-size: 18px;
+
+        color: white;
+        font-family: 'Roboto', sans-serif;
+    }
+    
+    .square .line, .line-2 {
+        background: white;
+        height: 2px
+    }
+    
+    .sentences {
+        display: flex;
+        padding-top: 2.7%;
+        padding-left: 52%;
+    }
+    
+    .sentences h3 {
+        margin-top: 3.7%;
+        font-family: 'Lexend Deca', sans-serif;
+        font-size: 50px;
+        position: relative;
+        font-weight: 700;
+        color: whitesmoke;
+        animation: shortCircuit 3.5s ease-in infinite; 
+    }
+    
+    input[type="text"] {
+        position: relative;
+        width: 460px;
+        height: 57px;
+        left: 469px;
+        top: 245px;
+        
+        background: #D9D9D9;
+        border-radius: 40px;
+        padding-left: 15px;
+    }
+    
+    footer {
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 16px;
+        text-align: center;
+        margin-top: 5%;
+        filter: brightness(0.5);
+    }
+
+    .info {
+        background: linear-gradient(to right, rgb(0, 0, 0), rgb(143, 44, 44), rgb(2, 27, 73));
+        background: url(./images/1188627.png);
+    }
+    
+    .box {
+        color: white;
+        height: 70vh;
+    }
+
+    .title {
+        display: block;
+        margin-bottom: 5%;
+        text-align: center;
+        align-items: center;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .descricao {
+        color: white;
+        margin: 5%;
+        padding: 5px;
+        margin-bottom: 2.5%;
+    }
+
+    .descricao a {
+        padding-left: 15px;
+    }
+
+
+    .info .box hr {
+        margin-left: 10px;
+        width: 550px;
+        background-color: white;
+        height: 2px;
+    }
+
+    .button {
+        position: absolute;
+        margin-left: 45%;
+        margin-top: 17.5%;
+    }
+
+    #btn {
+        width: 140px;
+        height: 45px;
+
+        background: linear-gradient(to top, red , rgb(182, 19, 19), rgb(112, 3, 3));
+        border: 1px solid whitesmoke;
+        border-radius: 8px;
+
+        font-family: Arial, Helvetica, sans-serif;
+
+        font-weight: 600;
+        color: whitesmoke
+    }
+
+    #btn:hover {
+        background: linear-gradient(to top, rgb(24, 24, 24), rgb(48, 48, 48), rgba(32, 32, 32, 0.671));
+        border: 1px solid rgb(196, 186, 54);
+        border-radius: 8px;
+        transform: scale(1.05);
+        transition: 0.4s;
+    }
+    .classificao-indicativa {
+        display: flex;
+    }
+
+    #faixa12, .avaliacao {
+        display: inline-block;
+        flex-direction: column;
+    }
+
+    .avaliacao {
+        margin-left: 5.6%;
+        width: 550px;
+        padding-left: 3px;
+    }
+
+    .avaliacao span {
+        padding-left: 12px;
+        width: 560px;
+    }
+
+    #faixa-12 {
+        color: black;
+        font-weight: 700;
+        margin-left: 10px;
+        display: inline-block;
+        background-color: rgb(218, 203, 74);
+        width: 25.5px;
+        height: 25.5px;
+        border: 1px solid rgb(196, 186, 54);
+        border-radius: 4px;
+        text-align: center
+    }
+    
+    .second-box {
+        margin-top: 2px
+    }
+    
+    .box, .second-box {
+        display: inline-block;
+        margin-inline: 5.5%;
+    }
